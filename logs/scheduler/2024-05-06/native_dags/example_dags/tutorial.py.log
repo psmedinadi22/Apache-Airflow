@@ -1,0 +1,175 @@
+[2024-05-06T18:09:46.636-0500] {processor.py:161} INFO - Started process (PID=6615) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:09:46.637-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:09:46.638-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:09:46.638-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:09:46.647-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:09:46.807-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:09:46.806-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:09:46.818-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:09:46.818-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:09:46.835-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.203 seconds
+[2024-05-06T18:12:14.210-0500] {processor.py:161} INFO - Started process (PID=8608) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:12:14.211-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:12:14.211-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:12:14.211-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:12:14.220-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:12:14.312-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:12:14.312-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:12:14.328-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:12:14.327-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:12:14.345-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.139 seconds
+[2024-05-06T18:14:12.614-0500] {processor.py:161} INFO - Started process (PID=10217) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:14:12.615-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:14:12.615-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:14:12.615-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:14:12.624-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:14:12.720-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:14:12.719-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:14:12.735-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:14:12.735-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:14:12.750-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.139 seconds
+[2024-05-06T18:16:08.398-0500] {processor.py:161} INFO - Started process (PID=11761) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:16:08.399-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:16:08.400-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:16:08.400-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:16:08.412-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:16:08.539-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:16:08.539-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:16:08.560-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:16:08.560-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:16:08.583-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.188 seconds
+[2024-05-06T18:18:03.566-0500] {processor.py:161} INFO - Started process (PID=13325) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:18:03.567-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:18:03.568-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:18:03.568-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:18:03.577-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:18:03.677-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:18:03.677-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:18:03.693-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:18:03.692-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:18:03.709-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.145 seconds
+[2024-05-06T18:20:03.098-0500] {processor.py:161} INFO - Started process (PID=15000) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:20:03.099-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:20:03.100-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:20:03.100-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:20:03.110-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:20:03.220-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:20:03.220-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:20:03.238-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:20:03.238-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:20:03.257-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.162 seconds
+[2024-05-06T18:22:11.639-0500] {processor.py:161} INFO - Started process (PID=16810) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:22:11.641-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:22:11.641-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:22:11.641-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:22:11.655-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:22:11.804-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:22:11.804-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:22:11.834-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:22:11.834-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:22:11.859-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.223 seconds
+[2024-05-06T18:24:21.771-0500] {processor.py:161} INFO - Started process (PID=18232) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:24:21.773-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:24:21.774-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:24:21.773-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:24:21.782-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:24:21.870-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:24:21.870-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:24:21.883-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:24:21.882-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:24:21.898-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.129 seconds
+[2024-05-06T18:26:14.012-0500] {processor.py:161} INFO - Started process (PID=18637) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:26:14.013-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:26:14.014-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:26:14.014-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:26:14.023-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:26:14.113-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:26:14.113-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:26:14.128-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:26:14.128-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:26:14.146-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.136 seconds
+[2024-05-06T18:28:14.032-0500] {processor.py:161} INFO - Started process (PID=19068) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:28:14.033-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:28:14.034-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:28:14.034-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:28:14.042-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:28:14.133-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:28:14.132-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:28:14.150-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:28:14.150-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:28:14.169-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.139 seconds
+[2024-05-06T18:30:17.150-0500] {processor.py:161} INFO - Started process (PID=19518) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:30:17.151-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:30:17.152-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:30:17.152-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:30:17.165-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:30:17.301-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:30:17.300-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:30:17.323-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:30:17.323-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:30:17.347-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.201 seconds
+[2024-05-06T18:32:24.779-0500] {processor.py:161} INFO - Started process (PID=19980) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:32:24.781-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:32:24.782-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:32:24.782-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:32:24.796-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:32:24.938-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:32:24.938-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:32:24.962-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:32:24.961-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:32:24.987-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.211 seconds
+[2024-05-06T18:34:25.370-0500] {processor.py:161} INFO - Started process (PID=20419) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:34:25.372-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:34:25.373-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:34:25.372-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:34:25.381-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:34:25.475-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:34:25.475-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:34:25.491-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:34:25.491-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:34:25.507-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds
+[2024-05-06T18:36:22.917-0500] {processor.py:161} INFO - Started process (PID=20834) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:36:22.919-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:36:22.920-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:36:22.919-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:36:22.929-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:36:23.032-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:36:23.032-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:36:23.049-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:36:23.049-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:36:23.066-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.152 seconds
+[2024-05-06T18:38:22.461-0500] {processor.py:161} INFO - Started process (PID=21264) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:38:22.465-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:38:22.465-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:38:22.465-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:38:22.476-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:38:22.584-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:38:22.583-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:38:22.603-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:38:22.603-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:38:22.623-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.164 seconds
+[2024-05-06T18:40:18.137-0500] {processor.py:161} INFO - Started process (PID=21685) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:40:18.139-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:40:18.140-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:40:18.140-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:40:18.150-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:40:18.245-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:40:18.245-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:40:18.261-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:40:18.261-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:40:18.279-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.145 seconds
+[2024-05-06T18:42:13.028-0500] {processor.py:161} INFO - Started process (PID=22186) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:42:13.029-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:42:13.030-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:42:13.030-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:42:13.039-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:42:13.133-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:42:13.133-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:42:13.149-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:42:13.149-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:42:13.165-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.139 seconds
+[2024-05-06T18:44:13.329-0500] {processor.py:161} INFO - Started process (PID=22618) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:44:13.331-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:44:13.332-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:44:13.332-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:44:13.341-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:44:13.436-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:44:13.436-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:44:13.452-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:44:13.452-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:44:13.469-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.142 seconds
+[2024-05-06T18:46:13.252-0500] {processor.py:161} INFO - Started process (PID=23040) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:46:13.254-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:46:13.255-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:46:13.255-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:46:13.267-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:46:13.384-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:46:13.383-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:46:13.403-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:46:13.403-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:46:13.423-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.173 seconds
+[2024-05-06T18:48:16.700-0500] {processor.py:161} INFO - Started process (PID=23489) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:48:16.702-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:48:16.702-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:48:16.702-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:48:16.711-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:48:16.814-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:48:16.814-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:48:16.830-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:48:16.830-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:48:16.846-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.149 seconds
+[2024-05-06T18:50:24.344-0500] {processor.py:161} INFO - Started process (PID=23938) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:50:24.345-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:50:24.347-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:50:24.346-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:50:24.357-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:50:24.466-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:50:24.466-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:50:24.486-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:50:24.486-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:50:24.506-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.164 seconds
+[2024-05-06T18:52:21.423-0500] {processor.py:161} INFO - Started process (PID=24358) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:52:21.424-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:52:21.424-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:52:21.424-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:52:21.435-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:52:21.546-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:52:21.546-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:52:21.565-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:52:21.565-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:52:21.585-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.165 seconds
+[2024-05-06T18:54:18.088-0500] {processor.py:161} INFO - Started process (PID=24777) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:54:18.089-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:54:18.090-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:54:18.089-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:54:18.098-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:54:18.180-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:54:18.180-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:54:18.192-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:54:18.192-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:54:18.207-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.122 seconds
+[2024-05-06T18:56:43.019-0500] {processor.py:161} INFO - Started process (PID=25268) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:56:43.021-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:56:43.022-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:56:43.022-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:56:43.033-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:56:43.147-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:56:43.147-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:56:43.166-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:56:43.166-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:56:43.186-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.170 seconds
+[2024-05-06T18:58:50.048-0500] {processor.py:161} INFO - Started process (PID=25849) to work on /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:58:50.049-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-06T18:58:50.050-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:58:50.050-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:58:50.059-0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-06T18:58:50.145-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:58:50.144-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T18:58:50.158-0500] {logging_mixin.py:188} INFO - [2024-05-06T18:58:50.158-0500] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-05 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-06T18:58:50.174-0500] {processor.py:183} INFO - Processing /Users/paulamedina/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.129 seconds

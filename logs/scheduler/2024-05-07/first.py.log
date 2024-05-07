@@ -1,0 +1,770 @@
+[2024-05-06T19:00:14.916-0500] {processor.py:161} INFO - Started process (PID=26172) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:00:14.917-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:00:14.917-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:00:14.917-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:00:15.445-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:00:15.555-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:00:15.555-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:00:15.574-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:00:15.573-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:00:15.593-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.681 seconds
+[2024-05-06T19:02:09.713-0500] {processor.py:161} INFO - Started process (PID=26590) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:02:09.714-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:02:09.714-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:02:09.714-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:02:10.116-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:02:10.193-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:02:10.192-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:02:10.204-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:02:10.204-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:02:10.218-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.507 seconds
+[2024-05-06T19:03:49.995-0500] {processor.py:161} INFO - Started process (PID=26963) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:03:49.995-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:03:49.996-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:03:49.996-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:03:50.418-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:03:50.496-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:03:50.496-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:03:50.508-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:03:50.507-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:03:50.522-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.529 seconds
+[2024-05-06T19:05:27.242-0500] {processor.py:161} INFO - Started process (PID=27317) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:05:27.242-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:05:27.243-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:05:27.243-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:05:27.630-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:05:27.706-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:05:27.705-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:05:27.717-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:05:27.717-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:05:27.731-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.492 seconds
+[2024-05-06T19:07:06.223-0500] {processor.py:161} INFO - Started process (PID=27672) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:07:06.224-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:07:06.224-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:07:06.224-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:07:06.638-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:07:06.715-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:07:06.714-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:07:06.726-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:07:06.726-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:07:06.744-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.523 seconds
+[2024-05-06T19:08:51.596-0500] {processor.py:161} INFO - Started process (PID=28055) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:08:51.597-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:08:51.597-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:08:51.597-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:08:51.988-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:08:52.064-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:08:52.064-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:08:52.075-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:08:52.075-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:08:52.089-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T19:10:32.039-0500] {processor.py:161} INFO - Started process (PID=28418) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:10:32.040-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:10:32.040-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:10:32.040-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:10:32.459-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:10:32.537-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:10:32.536-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:10:32.548-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:10:32.548-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:10:32.562-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.525 seconds
+[2024-05-06T19:12:15.235-0500] {processor.py:161} INFO - Started process (PID=28769) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:12:15.236-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:12:15.237-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:12:15.237-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:12:15.668-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:12:15.764-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:12:15.763-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:12:15.779-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:12:15.779-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:12:15.797-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.565 seconds
+[2024-05-06T19:14:09.997-0500] {processor.py:161} INFO - Started process (PID=29174) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:14:09.999-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:14:09.999-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:14:09.999-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:14:10.734-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:14:10.836-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:14:10.835-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:14:10.853-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:14:10.852-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:14:10.872-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.878 seconds
+[2024-05-06T19:16:14.531-0500] {processor.py:161} INFO - Started process (PID=29626) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:16:14.534-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:16:14.534-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:16:14.534-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:16:15.326-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:16:15.443-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:16:15.442-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:16:15.462-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:16:15.461-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:16:15.481-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.952 seconds
+[2024-05-06T19:18:43.151-0500] {processor.py:161} INFO - Started process (PID=30229) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:18:43.153-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:18:43.154-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:18:43.153-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:18:43.978-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:18:44.080-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:18:44.079-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:18:44.097-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:18:44.097-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:18:44.115-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.967 seconds
+[2024-05-06T19:20:53.221-0500] {processor.py:161} INFO - Started process (PID=30679) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:20:53.222-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:20:53.223-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:20:53.223-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:20:53.791-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:20:53.911-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:20:53.911-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:20:53.930-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:20:53.930-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:20:53.951-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.734 seconds
+[2024-05-06T19:23:13.484-0500] {processor.py:161} INFO - Started process (PID=31165) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:23:13.485-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:23:13.486-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:23:13.485-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:23:14.024-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:23:14.137-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:23:14.137-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:23:14.154-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:23:14.154-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:23:14.173-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.692 seconds
+[2024-05-06T19:25:30.469-0500] {processor.py:161} INFO - Started process (PID=31649) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:25:30.470-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:25:30.471-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:25:30.471-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:25:31.115-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:25:31.217-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:25:31.216-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:25:31.234-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:25:31.233-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:25:31.251-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.785 seconds
+[2024-05-06T19:27:27.667-0500] {processor.py:161} INFO - Started process (PID=32071) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:27:27.667-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:27:27.668-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:27:27.668-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:27:28.060-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:27:28.137-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:27:28.137-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:27:28.149-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:27:28.149-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:27:28.163-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.498 seconds
+[2024-05-06T19:29:10.149-0500] {processor.py:161} INFO - Started process (PID=32431) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:29:10.149-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:29:10.150-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:29:10.150-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:29:10.546-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:29:10.622-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:29:10.622-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:29:10.634-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:29:10.633-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:29:10.647-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.500 seconds
+[2024-05-06T19:30:58.511-0500] {processor.py:161} INFO - Started process (PID=32838) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:30:58.512-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:30:58.513-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:30:58.513-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:30:58.965-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:30:59.051-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:30:59.050-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:30:59.064-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:30:59.064-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:30:59.080-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.571 seconds
+[2024-05-06T19:32:37.925-0500] {processor.py:161} INFO - Started process (PID=33185) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:32:37.926-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:32:37.926-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:32:37.926-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:32:38.340-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:32:38.425-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:32:38.425-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:32:38.439-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:32:38.439-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:32:38.454-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.531 seconds
+[2024-05-06T19:34:21.116-0500] {processor.py:161} INFO - Started process (PID=33553) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:34:21.117-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:34:21.118-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:34:21.117-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:34:21.504-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:34:21.579-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:34:21.578-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:34:21.590-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:34:21.590-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:34:21.603-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.489 seconds
+[2024-05-06T19:36:07.020-0500] {processor.py:161} INFO - Started process (PID=34025) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:36:07.020-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:36:07.021-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:36:07.021-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:36:07.409-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:36:07.487-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:36:07.487-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:36:07.499-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:36:07.498-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:36:07.513-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T19:37:44.416-0500] {processor.py:161} INFO - Started process (PID=34364) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:37:44.416-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:37:44.417-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:37:44.417-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:37:44.805-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:37:44.881-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:37:44.881-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:37:44.893-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:37:44.892-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:37:44.906-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.493 seconds
+[2024-05-06T19:39:25.383-0500] {processor.py:161} INFO - Started process (PID=34731) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:39:25.383-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:39:25.384-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:39:25.384-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:39:25.808-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:39:25.895-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:39:25.894-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:39:25.908-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:39:25.908-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:39:25.924-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.543 seconds
+[2024-05-06T19:41:05.390-0500] {processor.py:161} INFO - Started process (PID=35087) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:41:05.391-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:41:05.392-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:41:05.392-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:41:05.783-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:41:05.860-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:41:05.860-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:41:05.872-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:41:05.872-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:41:05.885-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.497 seconds
+[2024-05-06T19:42:40.211-0500] {processor.py:161} INFO - Started process (PID=35417) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:42:40.212-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:42:40.213-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:42:40.212-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:42:40.631-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:42:40.717-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:42:40.717-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:42:40.731-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:42:40.731-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:42:40.746-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.537 seconds
+[2024-05-06T19:44:22.683-0500] {processor.py:161} INFO - Started process (PID=35781) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:44:22.684-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:44:22.685-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:44:22.685-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:44:23.117-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:44:23.212-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:44:23.212-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:44:23.226-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:44:23.226-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:44:23.241-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.560 seconds
+[2024-05-06T19:46:10.003-0500] {processor.py:161} INFO - Started process (PID=36168) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:46:10.004-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:46:10.004-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:46:10.004-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:46:10.433-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:46:10.519-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:46:10.519-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:46:10.533-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:46:10.532-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:46:10.548-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.548 seconds
+[2024-05-06T19:47:56.599-0500] {processor.py:161} INFO - Started process (PID=36540) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:47:56.600-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:47:56.600-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:47:56.600-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:47:56.985-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:47:57.064-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:47:57.064-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:47:57.077-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:47:57.077-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:47:57.092-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T19:49:36.326-0500] {processor.py:161} INFO - Started process (PID=36898) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:49:36.327-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:49:36.328-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:49:36.327-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:49:36.730-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:49:36.810-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:49:36.809-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:49:36.822-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:49:36.821-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:49:36.835-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.511 seconds
+[2024-05-06T19:51:21.318-0500] {processor.py:161} INFO - Started process (PID=37366) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:51:21.319-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:51:21.319-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:51:21.319-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:51:21.740-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:51:21.825-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:51:21.825-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:51:21.838-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:51:21.838-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:51:21.854-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.539 seconds
+[2024-05-06T19:53:07.126-0500] {processor.py:161} INFO - Started process (PID=37736) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:53:07.127-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:53:07.127-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:53:07.127-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:53:07.517-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:53:07.595-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:53:07.595-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:53:07.606-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:53:07.606-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:53:07.620-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T19:54:50.709-0500] {processor.py:161} INFO - Started process (PID=38107) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:54:50.710-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:54:50.710-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:54:50.710-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:54:51.101-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:54:51.178-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:54:51.178-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:54:51.190-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:54:51.190-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:54:51.204-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.497 seconds
+[2024-05-06T19:56:33.265-0500] {processor.py:161} INFO - Started process (PID=38470) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:56:33.265-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:56:33.266-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:56:33.266-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:56:33.669-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:56:33.754-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:56:33.754-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:56:33.768-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:56:33.768-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:56:33.783-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.521 seconds
+[2024-05-06T19:58:19.621-0500] {processor.py:161} INFO - Started process (PID=38837) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:58:19.622-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T19:58:19.622-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:58:19.622-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:58:20.015-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T19:58:20.092-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:58:20.092-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T19:58:20.104-0500] {logging_mixin.py:188} INFO - [2024-05-06T19:58:20.104-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T19:58:20.117-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.498 seconds
+[2024-05-06T20:00:05.054-0500] {processor.py:161} INFO - Started process (PID=39230) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:00:05.055-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:00:05.056-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:00:05.055-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:00:05.489-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:00:05.577-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:00:05.577-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:00:05.591-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:00:05.590-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:00:05.606-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.554 seconds
+[2024-05-06T20:01:58.444-0500] {processor.py:161} INFO - Started process (PID=39657) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:01:58.444-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:01:58.445-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:01:58.445-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:01:58.845-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:01:58.931-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:01:58.930-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:01:58.942-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:01:58.942-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:01:58.957-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.515 seconds
+[2024-05-06T20:03:41.879-0500] {processor.py:161} INFO - Started process (PID=40044) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:03:41.880-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:03:41.880-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:03:41.880-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:03:42.276-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:03:42.352-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:03:42.352-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:03:42.364-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:03:42.364-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:03:42.378-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.501 seconds
+[2024-05-06T20:05:27.284-0500] {processor.py:161} INFO - Started process (PID=40404) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:05:27.285-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:05:27.285-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:05:27.285-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:05:27.707-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:05:27.794-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:05:27.794-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:05:27.808-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:05:27.808-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:05:27.827-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.546 seconds
+[2024-05-06T20:07:13.705-0500] {processor.py:161} INFO - Started process (PID=40790) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:07:13.706-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:07:13.706-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:07:13.706-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:07:14.098-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:07:14.195-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:07:14.195-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:07:14.210-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:07:14.210-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:07:14.224-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.521 seconds
+[2024-05-06T20:08:55.585-0500] {processor.py:161} INFO - Started process (PID=41152) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:08:55.585-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:08:55.586-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:08:55.586-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:08:55.996-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:08:56.081-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:08:56.080-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:08:56.094-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:08:56.094-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:08:56.110-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.528 seconds
+[2024-05-06T20:10:37.715-0500] {processor.py:161} INFO - Started process (PID=41606) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:10:37.715-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:10:37.716-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:10:37.716-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:10:38.135-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:10:38.220-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:10:38.219-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:10:38.233-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:10:38.233-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:10:38.249-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.537 seconds
+[2024-05-06T20:12:14.610-0500] {processor.py:161} INFO - Started process (PID=41947) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:12:14.611-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:12:14.612-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:12:14.612-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:12:15.007-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:12:15.084-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:12:15.084-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:12:15.096-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:12:15.096-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:12:15.110-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.502 seconds
+[2024-05-06T20:13:52.689-0500] {processor.py:161} INFO - Started process (PID=42297) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:13:52.689-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:13:52.690-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:13:52.690-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:13:53.082-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:13:53.160-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:13:53.160-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:13:53.172-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:13:53.172-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:13:53.186-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.500 seconds
+[2024-05-06T20:15:33.181-0500] {processor.py:161} INFO - Started process (PID=42648) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:15:33.182-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:15:33.182-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:15:33.182-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:15:33.578-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:15:33.657-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:15:33.656-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:15:33.669-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:15:33.668-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:15:33.683-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.503 seconds
+[2024-05-06T20:17:15.910-0500] {processor.py:161} INFO - Started process (PID=43012) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:17:15.911-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:17:15.911-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:17:15.911-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:17:16.302-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:17:16.379-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:17:16.378-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:17:16.390-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:17:16.390-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:17:16.404-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.496 seconds
+[2024-05-06T20:18:59.955-0500] {processor.py:161} INFO - Started process (PID=43381) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:18:59.956-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:18:59.957-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:18:59.957-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:19:00.377-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:19:00.462-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:19:00.462-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:19:00.476-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:19:00.476-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:19:00.491-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.538 seconds
+[2024-05-06T20:20:44.108-0500] {processor.py:161} INFO - Started process (PID=43750) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:20:44.109-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:20:44.110-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:20:44.109-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:20:44.561-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:20:44.646-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:20:44.646-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:20:44.660-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:20:44.660-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:20:44.675-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.571 seconds
+[2024-05-06T20:22:27.906-0500] {processor.py:161} INFO - Started process (PID=44121) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:22:27.906-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:22:27.907-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:22:27.907-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:22:28.321-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:22:28.406-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:22:28.405-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:22:28.419-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:22:28.419-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:22:28.435-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.532 seconds
+[2024-05-06T20:24:09.497-0500] {processor.py:161} INFO - Started process (PID=44485) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:24:09.497-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:24:09.498-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:24:09.498-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:24:09.909-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:24:09.997-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:24:09.997-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:24:10.011-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:24:10.011-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:24:10.026-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.532 seconds
+[2024-05-06T20:25:51.638-0500] {processor.py:161} INFO - Started process (PID=44853) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:25:51.639-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:25:51.640-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:25:51.639-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:25:52.063-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:25:52.150-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:25:52.149-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:25:52.163-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:25:52.163-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:25:52.179-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.543 seconds
+[2024-05-06T20:27:35.531-0500] {processor.py:161} INFO - Started process (PID=45210) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:27:35.532-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:27:35.532-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:27:35.532-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:27:35.929-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:27:36.005-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:27:36.005-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:27:36.016-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:27:36.016-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:27:36.031-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.502 seconds
+[2024-05-06T20:29:16.151-0500] {processor.py:161} INFO - Started process (PID=45662) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:29:16.151-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:29:16.152-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:29:16.152-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:29:16.564-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:29:16.650-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:29:16.650-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:29:16.664-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:29:16.663-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:29:16.679-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.531 seconds
+[2024-05-06T20:31:00.404-0500] {processor.py:161} INFO - Started process (PID=46053) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:31:00.405-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:31:00.406-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:31:00.405-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:31:00.833-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:31:00.922-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:31:00.922-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:31:00.936-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:31:00.935-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:31:00.951-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.549 seconds
+[2024-05-06T20:32:40.346-0500] {processor.py:161} INFO - Started process (PID=46398) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:32:40.346-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:32:40.347-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:32:40.347-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:32:40.747-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:32:40.826-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:32:40.826-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:32:40.838-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:32:40.838-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:32:40.851-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.507 seconds
+[2024-05-06T20:34:23.811-0500] {processor.py:161} INFO - Started process (PID=46769) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:34:23.811-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:34:23.812-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:34:23.812-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:34:24.205-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:34:24.283-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:34:24.282-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:34:24.294-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:34:24.294-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:34:24.308-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.499 seconds
+[2024-05-06T20:36:01.506-0500] {processor.py:161} INFO - Started process (PID=47113) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:36:01.507-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:36:01.508-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:36:01.508-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:36:01.927-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:36:02.013-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:36:02.013-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:36:02.027-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:36:02.027-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:36:02.042-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.538 seconds
+[2024-05-06T20:37:38.519-0500] {processor.py:161} INFO - Started process (PID=47467) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:37:38.520-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:37:38.521-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:37:38.520-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:37:38.946-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:37:39.033-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:37:39.033-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:37:39.047-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:37:39.046-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:37:39.062-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.545 seconds
+[2024-05-06T20:39:20.592-0500] {processor.py:161} INFO - Started process (PID=47827) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:39:20.592-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:39:20.593-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:39:20.593-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:39:20.980-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:39:21.058-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:39:21.058-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:39:21.071-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:39:21.071-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:39:21.086-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.497 seconds
+[2024-05-06T20:41:06.375-0500] {processor.py:161} INFO - Started process (PID=48195) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:41:06.376-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:41:06.376-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:41:06.376-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:41:06.782-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:41:06.856-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:41:06.856-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:41:06.867-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:41:06.867-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:41:06.882-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.509 seconds
+[2024-05-06T20:42:49.602-0500] {processor.py:161} INFO - Started process (PID=48564) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:42:49.602-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:42:49.603-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:42:49.603-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:42:50.028-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:42:50.114-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:42:50.114-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:42:50.128-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:42:50.127-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:42:50.143-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.544 seconds
+[2024-05-06T20:44:30.985-0500] {processor.py:161} INFO - Started process (PID=48932) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:44:30.985-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:44:30.986-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:44:30.986-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:44:31.389-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:44:31.466-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:44:31.466-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:44:31.477-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:44:31.477-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:44:31.492-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.509 seconds
+[2024-05-06T20:46:14.350-0500] {processor.py:161} INFO - Started process (PID=49303) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:46:14.350-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:46:14.351-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:46:14.351-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:46:14.744-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:46:14.829-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:46:14.828-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:46:14.840-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:46:14.840-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:46:14.855-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.507 seconds
+[2024-05-06T20:48:01.384-0500] {processor.py:161} INFO - Started process (PID=49757) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:48:01.385-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:48:01.386-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:48:01.385-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:48:01.784-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:48:01.860-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:48:01.860-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:48:01.872-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:48:01.872-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:48:01.886-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.503 seconds
+[2024-05-06T20:49:45.053-0500] {processor.py:161} INFO - Started process (PID=50127) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:49:45.054-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:49:45.054-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:49:45.054-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:49:45.469-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:49:45.554-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:49:45.553-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:49:45.567-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:49:45.567-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:49:45.583-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.531 seconds
+[2024-05-06T20:51:30.511-0500] {processor.py:161} INFO - Started process (PID=50504) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:51:30.512-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:51:30.512-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:51:30.512-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:51:30.902-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:51:30.979-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:51:30.979-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:51:30.991-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:51:30.990-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:51:31.005-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.496 seconds
+[2024-05-06T20:53:15.935-0500] {processor.py:161} INFO - Started process (PID=50865) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:53:15.936-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:53:15.936-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:53:15.936-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:53:16.327-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:53:16.403-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:53:16.402-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:53:16.414-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:53:16.414-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:53:16.428-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T20:54:59.914-0500] {processor.py:161} INFO - Started process (PID=51236) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:54:59.914-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:54:59.915-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:54:59.915-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:55:00.335-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:55:00.422-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:55:00.422-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:55:00.436-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:55:00.435-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:55:00.451-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.540 seconds
+[2024-05-06T20:56:41.607-0500] {processor.py:161} INFO - Started process (PID=51601) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:56:41.608-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:56:41.608-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:56:41.608-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:56:41.999-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:56:42.077-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:56:42.077-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:56:42.088-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:56:42.088-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:56:42.102-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.497 seconds
+[2024-05-06T20:58:27.675-0500] {processor.py:161} INFO - Started process (PID=51987) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:58:27.676-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T20:58:27.676-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:58:27.676-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:58:28.064-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T20:58:28.142-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:58:28.142-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T20:58:28.154-0500] {logging_mixin.py:188} INFO - [2024-05-06T20:58:28.154-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T20:58:28.169-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.496 seconds
+[2024-05-06T21:00:18.535-0500] {processor.py:161} INFO - Started process (PID=52388) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:00:18.536-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:00:18.537-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:00:18.537-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:00:19.103-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:00:19.222-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:00:19.222-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:00:19.241-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:00:19.241-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:00:19.262-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.730 seconds
+[2024-05-06T21:02:23.485-0500] {processor.py:161} INFO - Started process (PID=52911) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:02:23.486-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:02:23.486-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:02:23.486-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:02:23.909-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:02:24.000-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:02:23.999-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:02:24.013-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:02:24.013-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:02:24.028-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.546 seconds
+[2024-05-06T21:04:04.253-0500] {processor.py:161} INFO - Started process (PID=53292) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:04:04.254-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:04:04.254-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:04:04.254-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:04:04.647-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:04:04.723-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:04:04.723-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:04:04.734-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:04:04.734-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:04:04.748-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.497 seconds
+[2024-05-06T21:05:48.503-0500] {processor.py:161} INFO - Started process (PID=53758) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:05:48.504-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:05:48.504-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:05:48.504-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:05:48.926-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:05:49.033-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:05:49.032-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:05:49.048-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:05:49.048-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:05:49.063-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.563 seconds
+[2024-05-06T21:07:27.708-0500] {processor.py:161} INFO - Started process (PID=54101) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:07:27.709-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:07:27.710-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:07:27.710-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:07:28.097-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:07:28.175-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:07:28.175-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:07:28.187-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:07:28.187-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:07:28.201-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T21:09:08.904-0500] {processor.py:161} INFO - Started process (PID=54460) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:09:08.905-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:09:08.905-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:09:08.905-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:09:09.295-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:09:09.372-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:09:09.372-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:09:09.384-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:09:09.383-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:09:09.397-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T21:10:52.536-0500] {processor.py:161} INFO - Started process (PID=54828) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:10:52.537-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:10:52.538-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:10:52.537-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:10:52.951-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:10:53.037-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:10:53.037-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:10:53.051-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:10:53.051-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:10:53.067-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.533 seconds
+[2024-05-06T21:12:33.625-0500] {processor.py:161} INFO - Started process (PID=55183) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:12:33.626-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:12:33.626-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:12:33.626-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:12:34.017-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:12:34.094-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:12:34.093-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:12:34.105-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:12:34.105-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:12:34.118-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.496 seconds
+[2024-05-06T21:14:17.118-0500] {processor.py:161} INFO - Started process (PID=55552) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:14:17.118-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:14:17.119-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:14:17.119-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:14:17.511-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:14:17.587-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:14:17.587-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:14:17.599-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:14:17.599-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:14:17.613-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.498 seconds
+[2024-05-06T21:15:59.664-0500] {processor.py:161} INFO - Started process (PID=55918) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:15:59.665-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:15:59.665-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:15:59.665-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:16:00.063-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:16:00.143-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:16:00.143-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:16:00.155-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:16:00.155-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:16:00.169-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.507 seconds
+[2024-05-06T21:17:47.203-0500] {processor.py:161} INFO - Started process (PID=56286) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:17:47.204-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:17:47.204-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:17:47.204-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:17:47.592-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:17:47.670-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:17:47.670-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:17:47.681-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:17:47.681-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:17:47.696-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.495 seconds
+[2024-05-06T21:19:32.567-0500] {processor.py:161} INFO - Started process (PID=56661) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:19:32.568-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:19:32.569-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:19:32.569-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:19:32.971-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:19:33.048-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:19:33.048-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:19:33.059-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:19:33.059-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:19:33.072-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.507 seconds
+[2024-05-06T21:21:18.462-0500] {processor.py:161} INFO - Started process (PID=57131) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:21:18.463-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:21:18.464-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:21:18.464-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:21:18.854-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:21:18.930-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:21:18.929-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:21:18.941-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:21:18.941-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:21:18.955-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.494 seconds
+[2024-05-06T21:23:04.236-0500] {processor.py:161} INFO - Started process (PID=57505) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:23:04.237-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:23:04.238-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:23:04.238-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:23:04.628-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:23:04.705-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:23:04.705-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:23:04.717-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:23:04.717-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:23:04.730-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.496 seconds
+[2024-05-06T21:24:49.489-0500] {processor.py:161} INFO - Started process (PID=57869) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:24:49.490-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:24:49.491-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:24:49.490-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:24:49.894-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:24:49.972-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:24:49.972-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:24:49.984-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:24:49.983-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:24:49.997-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.510 seconds
+[2024-05-06T21:26:35.587-0500] {processor.py:161} INFO - Started process (PID=58246) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:26:35.588-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:26:35.589-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:26:35.588-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:26:35.979-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:26:36.055-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:26:36.055-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:26:36.067-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:26:36.067-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:26:36.080-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.494 seconds
+[2024-05-06T21:28:21.049-0500] {processor.py:161} INFO - Started process (PID=58621) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:28:21.050-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:28:21.051-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:28:21.051-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:28:21.490-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:28:21.573-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:28:21.573-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:28:21.585-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:28:21.585-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:28:21.599-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.553 seconds
+[2024-05-06T21:30:23.751-0500] {processor.py:161} INFO - Started process (PID=59071) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:30:23.753-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:30:23.754-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:30:23.754-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:30:24.646-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:30:24.837-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:30:24.837-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:30:24.867-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:30:24.866-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:30:24.898-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.152 seconds
+[2024-05-06T21:32:35.337-0500] {processor.py:161} INFO - Started process (PID=59549) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:32:35.337-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:32:35.338-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:32:35.338-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:32:35.732-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:32:35.810-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:32:35.810-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:32:35.823-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:32:35.823-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:32:35.837-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.502 seconds
+[2024-05-06T21:37:04.375-0500] {processor.py:161} INFO - Started process (PID=60570) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:37:04.377-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:37:04.377-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:37:04.377-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:37:05.093-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:37:05.266-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:37:05.266-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:37:05.281-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:37:05.280-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:37:05.301-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.928 seconds
+[2024-05-06T21:43:10.419-0500] {processor.py:161} INFO - Started process (PID=61892) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:43:10.421-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:43:10.422-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:10.421-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:43:11.122-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:43:11.331-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.330-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:mysql_to_excel_report
+[2024-05-06T21:43:11.338-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.338-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:mysql_to_excel_report
+[2024-05-06T21:43:11.343-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.342-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:mysql_to_excel_report
+[2024-05-06T21:43:11.343-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.343-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:43:11.354-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.354-0500] {dag.py:3118} INFO - Creating ORM DAG for mysql_to_excel_report
+[2024-05-06T21:43:11.363-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:43:11.363-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-06 00:00:00+00:00, run_after=2024-05-07 00:00:00+00:00
+[2024-05-06T21:43:11.377-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.960 seconds
+[2024-05-06T21:44:04.460-0500] {processor.py:161} INFO - Started process (PID=62141) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:04.462-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:44:04.463-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:04.463-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:04.938-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:05.051-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:05.050-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:44:05.070-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:05.069-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:44:05.087-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.629 seconds
+[2024-05-06T21:44:48.196-0500] {processor.py:161} INFO - Started process (PID=62323) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:48.197-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:44:48.198-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:48.198-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:48.830-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:44:48.970-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:48.969-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:44:48.995-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:44:48.995-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:44:49.015-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.824 seconds
+[2024-05-06T21:45:48.362-0500] {processor.py:161} INFO - Started process (PID=62562) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:45:48.363-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:45:48.364-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:45:48.363-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:45:48.906-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:45:49.025-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:45:49.025-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:45:49.044-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:45:49.044-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:45:49.061-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.702 seconds
+[2024-05-06T21:46:45.428-0500] {processor.py:161} INFO - Started process (PID=62790) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:46:45.430-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:46:45.431-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:46:45.431-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:46:46.362-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:46:46.495-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:46:46.495-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:46:46.516-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:46:46.515-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:46:46.534-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.112 seconds
+[2024-05-06T21:47:54.765-0500] {processor.py:161} INFO - Started process (PID=63078) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:47:54.767-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:47:54.768-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:47:54.767-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:47:55.387-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:47:55.522-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:47:55.522-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:47:55.546-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:47:55.545-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:47:55.565-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.804 seconds
+[2024-05-06T21:49:31.751-0500] {processor.py:161} INFO - Started process (PID=63489) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:49:31.752-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:49:31.753-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:49:31.753-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:49:32.236-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:49:32.250-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:49:32.249-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:49:32.327-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:49:32.327-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:49:32.344-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.595 seconds
+[2024-05-06T21:50:56.855-0500] {processor.py:161} INFO - Started process (PID=63815) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:50:56.858-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:50:56.859-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:50:56.858-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:50:57.740-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:50:58.064-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:50:58.063-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:50:58.090-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:50:58.090-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:50:58.117-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.267 seconds
+[2024-05-06T21:51:52.102-0500] {processor.py:161} INFO - Started process (PID=64048) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:51:52.103-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:51:52.104-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:51:52.103-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:51:52.689-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:51:52.817-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:51:52.816-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:51:52.838-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:51:52.837-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:51:52.856-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.758 seconds
+[2024-05-06T21:52:28.686-0500] {processor.py:161} INFO - Started process (PID=64181) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:52:28.688-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:52:28.689-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:52:28.689-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:52:29.438-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:52:29.600-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:52:29.600-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:52:29.628-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:52:29.627-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:52:29.652-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.970 seconds
+[2024-05-06T21:53:10.329-0500] {processor.py:161} INFO - Started process (PID=64334) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:10.330-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:53:10.331-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:10.331-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:11.085-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:11.259-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:11.259-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:53:11.289-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:11.289-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:53:11.313-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.989 seconds
+[2024-05-06T21:53:52.933-0500] {processor.py:161} INFO - Started process (PID=64508) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:52.934-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:53:52.936-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:52.935-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:53.820-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:53:53.948-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:53.948-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:53:53.969-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:53:53.968-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:53:53.988-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.059 seconds
+[2024-05-06T21:54:30.765-0500] {processor.py:161} INFO - Started process (PID=64666) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:54:30.767-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:54:30.768-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:54:30.767-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:54:31.451-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:54:31.604-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:54:31.603-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:54:31.629-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:54:31.629-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:54:31.650-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.890 seconds
+[2024-05-06T21:55:16.461-0500] {processor.py:161} INFO - Started process (PID=64844) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:55:16.463-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:55:16.463-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:55:16.463-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:55:17.215-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:55:17.390-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:55:17.390-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:55:17.417-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:55:17.416-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:55:17.447-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.991 seconds
+[2024-05-06T21:55:59.414-0500] {processor.py:161} INFO - Started process (PID=65029) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:55:59.415-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:55:59.416-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:55:59.416-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:56:00.154-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:56:00.310-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:56:00.309-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:56:00.335-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:56:00.334-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:56:00.358-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.948 seconds
+[2024-05-06T21:56:46.032-0500] {processor.py:161} INFO - Started process (PID=65207) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:56:46.033-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:56:46.034-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:56:46.034-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:56:46.735-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:56:46.890-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:56:46.889-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:56:46.915-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:56:46.915-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:56:46.936-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.908 seconds
+[2024-05-06T21:57:34.801-0500] {processor.py:161} INFO - Started process (PID=65384) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:57:34.802-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:57:34.803-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:57:34.803-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:57:35.545-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:57:35.701-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:57:35.701-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:57:35.726-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:57:35.726-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:57:35.748-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.952 seconds
+[2024-05-06T21:58:23.692-0500] {processor.py:161} INFO - Started process (PID=65575) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:58:23.693-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:58:23.694-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:58:23.694-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:58:24.378-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:58:24.526-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:58:24.525-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:58:24.550-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:58:24.550-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:58:24.571-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.884 seconds
+[2024-05-06T21:59:20.178-0500] {processor.py:161} INFO - Started process (PID=65878) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:59:20.180-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T21:59:20.181-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:59:20.181-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:59:20.992-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T21:59:21.185-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:59:21.184-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T21:59:21.214-0500] {logging_mixin.py:188} INFO - [2024-05-06T21:59:21.213-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T21:59:21.238-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.065 seconds
+[2024-05-06T22:00:25.658-0500] {processor.py:161} INFO - Started process (PID=66191) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:00:25.661-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T22:00:25.662-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:00:25.662-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:00:27.031-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:00:27.252-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:00:27.251-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T22:00:27.290-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:00:27.290-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T22:00:27.326-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.676 seconds
+[2024-05-06T22:01:23.419-0500] {processor.py:161} INFO - Started process (PID=66434) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:01:23.420-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T22:01:23.421-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:01:23.421-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:01:24.350-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:01:24.479-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:01:24.479-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-06T22:01:24.500-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:01:24.500-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-07 00:00:00+00:00, run_after=2024-05-08 00:00:00+00:00
+[2024-05-06T22:01:24.518-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.103 seconds
+[2024-05-06T22:01:59.794-0500] {processor.py:161} INFO - Started process (PID=66631) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-06T22:01:59.796-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-06T22:01:59.797-0500] {logging_mixin.py:188} INFO - [2024-05-06T22:01:59.796-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py

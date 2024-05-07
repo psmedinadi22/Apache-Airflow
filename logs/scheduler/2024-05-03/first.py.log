@@ -1,0 +1,607 @@
+[2024-05-03T16:54:30.711-0500] {processor.py:161} INFO - Started process (PID=41494) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:54:30.712-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T16:54:30.713-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:54:30.713-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:54:30.720-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:54:30.716-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T16:54:30.721-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:54:30.816-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.107 seconds
+[2024-05-03T16:56:03.055-0500] {processor.py:161} INFO - Started process (PID=43157) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:56:03.057-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T16:56:03.058-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:56:03.058-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:56:03.065-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:56:03.061-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T16:56:03.065-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:56:03.159-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.107 seconds
+[2024-05-03T16:58:12.138-0500] {processor.py:161} INFO - Started process (PID=45849) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:58:12.140-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T16:58:12.141-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:58:12.141-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:58:12.148-0500] {logging_mixin.py:188} INFO - [2024-05-03T16:58:12.143-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T16:58:12.149-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T16:58:12.268-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.133 seconds
+[2024-05-03T17:00:26.637-0500] {processor.py:161} INFO - Started process (PID=48344) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:00:26.638-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:00:26.639-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:00:26.639-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:00:26.643-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:00:26.641-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T17:00:26.643-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:00:26.760-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.127 seconds
+[2024-05-03T17:02:33.724-0500] {processor.py:161} INFO - Started process (PID=50614) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:02:33.725-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:02:33.726-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:02:33.726-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:02:33.729-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:02:33.727-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T17:02:33.730-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:02:33.817-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.095 seconds
+[2024-05-03T17:04:29.691-0500] {processor.py:161} INFO - Started process (PID=53019) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:04:29.693-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:04:29.694-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:04:29.694-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:04:29.701-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:04:29.697-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T17:04:29.702-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:04:29.806-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.118 seconds
+[2024-05-03T17:07:25.020-0500] {processor.py:161} INFO - Started process (PID=56355) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:07:25.021-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:07:25.022-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:07:25.022-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:07:25.030-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:07:25.024-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T17:07:25.031-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:07:25.141-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.124 seconds
+[2024-05-03T17:09:37.013-0500] {processor.py:161} INFO - Started process (PID=58894) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:09:37.014-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:09:37.014-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:09:37.014-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:09:37.020-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:09:37.016-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 56, in getattr_with_deprecation
+    return getattr(importlib.import_module(new_module), new_class_name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.operators.mysql_operator import MySqlOperator
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/utils/deprecation_tools.py", line 63, in getattr_with_deprecation
+    raise ImportError(error_message) from e
+ImportError: Could not import `airflow.providers.mysql.operators.mysql.MySqlOperator` while trying to import `airflow.operators.mysql_operator.MySqlOperator`.
+[2024-05-03T17:09:37.020-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:09:37.112-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.101 seconds
+[2024-05-03T17:11:34.982-0500] {processor.py:161} INFO - Started process (PID=61029) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:11:34.984-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:11:34.985-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:11:34.984-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:11:34.990-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:11:34.988-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:11:34.990-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:11:35.091-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.112 seconds
+[2024-05-03T17:13:38.688-0500] {processor.py:161} INFO - Started process (PID=63243) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:13:38.690-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:13:38.691-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:13:38.690-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:13:38.693-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:13:38.692-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:13:38.694-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:13:38.777-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.091 seconds
+[2024-05-03T17:15:42.442-0500] {processor.py:161} INFO - Started process (PID=65455) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:15:42.444-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:15:42.445-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:15:42.445-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:15:42.449-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:15:42.447-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:15:42.450-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:15:42.555-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.116 seconds
+[2024-05-03T17:17:57.420-0500] {processor.py:161} INFO - Started process (PID=67835) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:17:57.422-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:17:57.423-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:17:57.422-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:17:57.425-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:17:57.424-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:17:57.425-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:17:57.514-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.097 seconds
+[2024-05-03T17:19:54.241-0500] {processor.py:161} INFO - Started process (PID=70014) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:19:54.242-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:19:54.243-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:19:54.243-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:19:54.246-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:19:54.244-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:19:54.247-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:19:54.332-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.094 seconds
+[2024-05-03T17:21:52.199-0500] {processor.py:161} INFO - Started process (PID=72117) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:21:52.201-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:21:52.201-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:21:52.201-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:21:52.205-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:21:52.203-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 2, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2024-05-03T17:21:52.205-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:21:52.293-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.097 seconds
+[2024-05-03T17:23:52.254-0500] {processor.py:161} INFO - Started process (PID=74314) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:23:52.256-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:23:52.257-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:23:52.256-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:23:52.264-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:23:52.262-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:23:52.264-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:23:52.363-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.112 seconds
+[2024-05-03T17:26:08.858-0500] {processor.py:161} INFO - Started process (PID=76791) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:26:08.859-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:26:08.860-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:26:08.860-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:26:08.862-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:26:08.861-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:26:08.863-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:26:08.949-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.093 seconds
+[2024-05-03T17:28:07.927-0500] {processor.py:161} INFO - Started process (PID=78930) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:28:07.928-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:28:07.929-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:28:07.929-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:28:07.931-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:28:07.930-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:28:07.931-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:28:08.010-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.086 seconds
+[2024-05-03T17:30:09.302-0500] {processor.py:161} INFO - Started process (PID=81107) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:30:09.304-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:30:09.305-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:30:09.305-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:30:09.307-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:30:09.306-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:30:09.307-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:30:09.402-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.102 seconds
+[2024-05-03T17:32:19.256-0500] {processor.py:161} INFO - Started process (PID=83410) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:32:19.258-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:32:19.259-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:32:19.258-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:32:19.262-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:32:19.260-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:32:19.263-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:32:19.364-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.111 seconds
+[2024-05-03T17:34:23.827-0500] {processor.py:161} INFO - Started process (PID=85633) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:34:23.828-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:34:23.829-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:34:23.829-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:34:23.832-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:34:23.831-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:34:23.832-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:34:23.927-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.103 seconds
+[2024-05-03T17:36:27.292-0500] {processor.py:161} INFO - Started process (PID=87987) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:36:27.294-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:36:27.295-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:36:27.294-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:36:27.301-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:36:27.299-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:36:27.301-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:36:27.410-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.121 seconds
+[2024-05-03T17:38:27.263-0500] {processor.py:161} INFO - Started process (PID=90160) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:38:27.264-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:38:27.264-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:38:27.264-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:38:27.266-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:38:27.265-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:38:27.267-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:38:27.362-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.102 seconds
+[2024-05-03T17:40:09.313-0500] {processor.py:161} INFO - Started process (PID=91999) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:40:09.314-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:40:09.315-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:40:09.314-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:40:09.317-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:40:09.316-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:40:09.317-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:40:09.414-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.104 seconds
+[2024-05-03T17:43:25.539-0500] {processor.py:161} INFO - Started process (PID=95504) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:43:25.541-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:43:25.543-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:43:25.542-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:43:25.548-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:43:25.546-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:43:25.549-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:43:25.699-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.165 seconds
+[2024-05-03T17:45:35.498-0500] {processor.py:161} INFO - Started process (PID=97873) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:45:35.499-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:45:35.500-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:45:35.500-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:45:35.502-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:45:35.501-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-05-03T17:45:35.503-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:45:35.595-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.101 seconds
+[2024-05-03T17:47:02.600-0500] {processor.py:161} INFO - Started process (PID=99452) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:47:02.602-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:47:02.603-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:47:02.602-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:47:20.945-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:47:20.940-0500] {dagbag.py:350} ERROR - Failed to import: /Users/paulamedina/airflow/dags/first.py
+Traceback (most recent call last):
+  File "/Users/paulamedina/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/paulamedina/airflow/dags/first.py", line 19, in <module>
+    'start_date': datetime(2024, 5, 3),
+                  ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2024-05-03T17:47:20.948-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:47:21.054-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 18.456 seconds
+[2024-05-03T17:50:08.542-0500] {processor.py:161} INFO - Started process (PID=3425) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:50:08.544-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:50:08.545-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:08.544-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:50:09.101-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:50:09.315-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.315-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:mysql_to_excel_report
+[2024-05-03T17:50:09.328-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.328-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:mysql_to_excel_report
+[2024-05-03T17:50:09.335-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.335-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:mysql_to_excel_report
+[2024-05-03T17:50:09.336-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.336-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T17:50:09.347-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.346-0500] {dag.py:3118} INFO - Creating ORM DAG for mysql_to_excel_report
+[2024-05-03T17:50:09.357-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:50:09.356-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T17:50:09.378-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.839 seconds
+[2024-05-03T17:52:20.289-0500] {processor.py:161} INFO - Started process (PID=5918) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:52:20.290-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:52:20.291-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:52:20.291-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:52:21.128-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:52:21.235-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:52:21.234-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T17:52:21.252-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:52:21.252-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T17:52:21.273-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.987 seconds
+[2024-05-03T17:54:36.147-0500] {processor.py:161} INFO - Started process (PID=8344) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:54:36.149-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:54:36.150-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:54:36.150-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:54:37.065-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:54:37.189-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:54:37.189-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T17:54:37.209-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:54:37.209-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T17:54:37.230-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.085 seconds
+[2024-05-03T17:56:24.784-0500] {processor.py:161} INFO - Started process (PID=10304) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:56:24.786-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:56:24.787-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:24.786-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:56:25.536-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:56:25.756-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.755-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:mysql_to_excel_report
+[2024-05-03T17:56:25.764-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.764-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:mysql_to_excel_report
+[2024-05-03T17:56:25.770-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.770-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:mysql_to_excel_report
+[2024-05-03T17:56:25.771-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.770-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T17:56:25.782-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.781-0500] {dag.py:3118} INFO - Creating ORM DAG for mysql_to_excel_report
+[2024-05-03T17:56:25.791-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:56:25.790-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T17:56:25.806-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.024 seconds
+[2024-05-03T17:59:07.897-0500] {processor.py:161} INFO - Started process (PID=13266) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:59:07.899-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T17:59:07.900-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:59:07.900-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:59:08.713-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T17:59:08.813-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:59:08.812-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T17:59:08.830-0500] {logging_mixin.py:188} INFO - [2024-05-03T17:59:08.830-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T17:59:08.848-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 0.954 seconds
+[2024-05-03T18:01:15.728-0500] {processor.py:161} INFO - Started process (PID=15556) to work on /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T18:01:15.730-0500] {processor.py:830} INFO - Processing file /Users/paulamedina/airflow/dags/first.py for tasks to queue
+[2024-05-03T18:01:15.731-0500] {logging_mixin.py:188} INFO - [2024-05-03T18:01:15.731-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T18:01:16.609-0500] {processor.py:840} INFO - DAG(s) 'mysql_to_excel_report' retrieved from /Users/paulamedina/airflow/dags/first.py
+[2024-05-03T18:01:16.719-0500] {logging_mixin.py:188} INFO - [2024-05-03T18:01:16.719-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T18:01:16.737-0500] {logging_mixin.py:188} INFO - [2024-05-03T18:01:16.737-0500] {dag.py:3954} INFO - Setting next_dagrun for mysql_to_excel_report to 2024-05-03 00:00:00+00:00, run_after=2024-05-04 00:00:00+00:00
+[2024-05-03T18:01:16.755-0500] {processor.py:183} INFO - Processing /Users/paulamedina/airflow/dags/first.py took 1.030 seconds
